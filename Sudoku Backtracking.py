@@ -58,7 +58,7 @@ def print_board(bo):
 # replaces some elements of grid with 0 (0 represents an empty space)
 # the number of elements replaced is dependent on user input
 def delete_elements():
-    global grid, p
+    global grid
     try:
         p = float(input("\nDifficulty? (Number between 0.2-0.8, 0.2 is hardest, 0.8 is easiest)\n"))
         if p < 0.2 or p > 0.8:
